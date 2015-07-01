@@ -21,3 +21,6 @@ Bundle 'xolox/vim-easytags'
 
 " Post-vundle
 filetype plugin indent on     " Req'd for vundle
+set laststatus=2
+
+:let g:airline_theme="kolor"
