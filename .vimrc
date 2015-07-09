@@ -24,3 +24,4 @@ filetype plugin indent on     " Req'd for vundle
 set laststatus=2
 
 :let g:airline_theme="kolor"
+:let g:airline#extensions#tabline#enabled = 1
