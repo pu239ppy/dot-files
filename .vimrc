@@ -5,6 +5,8 @@ set expandtab
 set nocompatible
 set number
 set ruler
+set ignorecase
+set hlsearch
 syntax on
 
 filetype off
