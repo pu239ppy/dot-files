@@ -7,7 +7,14 @@ set number
 set ruler
 set ignorecase
 set hlsearch
+set paste
 syntax on
+
+if has("gui_running")
+    set bg=light
+else
+    set bg=dark
+end
 
 filetype off
 set rtp+=~/.vim/bundle/vundle
@@ -20,6 +27,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'bling/vim-airline'
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-easytags'
+Bundle 'vim-ruby/vim-ruby'
 
 " Post-vundle
 filetype plugin indent on     " Req'd for vundle
