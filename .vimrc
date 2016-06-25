@@ -28,10 +28,13 @@ Bundle 'bling/vim-airline'
 Bundle 'xolox/vim-misc'
 Bundle 'xolox/vim-easytags'
 Bundle 'vim-ruby/vim-ruby'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'vim-airline/vim-airline-themes'
 
 " Post-vundle
 filetype plugin indent on     " Req'd for vundle
 set laststatus=2
 
+colorscheme darkBlue
 :let g:airline_theme="kolor"
 :let g:airline#extensions#tabline#enabled = 1
