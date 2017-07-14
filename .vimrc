@@ -30,6 +30,7 @@ Bundle 'xolox/vim-easytags'
 Bundle 'vim-ruby/vim-ruby'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'ngmy/vim-rubocop'
 
 " Post-vundle
 filetype plugin indent on     " Req'd for vundle
