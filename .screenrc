@@ -4,3 +4,4 @@ defscrollback 50000
 hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%D %M %d %Y%{= Kc} %C%A%{-}'
 hardstatus alwayslastline
 term xterm-256color
+defshell -bash
